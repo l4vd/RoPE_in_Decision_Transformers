@@ -1,0 +1,180 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+checkpoints_*/
+runs/
+lightning_logs/
+
+# Experiments (comment out if you want to commit these)
+# Code/exports/*.json
+# Code/paper_figures/*.pdf
+# Code/paper_figures/*.png
+
+# Large data files (keep structure, ignore content)
+*.hdf5
+*.h5
+*.npy
+*.npz
+data/raw/
+data/processed/
+
+# Models (too large for git)
+models/
+saved_models/
+model_checkpoints/
+*.model
+
+# Logs
+*.log
+logs/
+tensorboard/
+wandb/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Testing
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+
+# Project specific
+# Uncomment to ignore large experimental outputs
+# Additional/wavelength_analysis/
+# Code/exports/baseline_aggregated.json
+# Code/exports/rope_aggregated.json
+# Code/exports/sinus_aggregated.json
+
+# Keep these for reproducibility (comment out if too large)
+# Code/exports/
+# Code/paper_figures/
+
+# Ignore personal notes
+notes.txt
+TODO.txt
+scratch/
+
+# Ignore large CSV/Excel files
+*.csv
+*.xlsx
+*.xls
+
+# Ignore video recordings
+*.mp4
+*.avi
+*.mov
+
+# Cache
+.cache/
+*.cache
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Security
+*.pem
+*.key
+credentials.json
+secrets.json

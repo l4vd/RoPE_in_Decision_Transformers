@@ -1,0 +1,24 @@
+\begin{table}[ht]
+\centering
+\caption{Length Generalization: RoPE vs. Sinusoidal Positional Encoding}
+\label{tab:results}
+\begin{tabular}{lccccc}
+\toprule
+Grid Size & Sinusoidal PE & RoPE & Improvement & Cohen's $d$ & $p$-value \\
+\midrule
+$8\times8$ & 100.0\% & 100.0\% & +0.0\%ns & $0.00$ & $nan$ \\
+$10\times10$ & 39.3\% & 83.3\% & +44.0\%ns & $1.23$ & $0.208$ \\
+$12\times12$ & 2.0\% & 43.3\% & +41.3\%* & $2.56$ & $0.035$ \\
+$15\times15$ & 0.0\% & 14.0\% & +14.0\%ns & $1.21$ & $0.213$ \\
+$20\times20$ & 0.0\% & 6.0\% & +6.0\%ns & $1.18$ & $0.223$ \\
+\midrule
+\textbf{Overall} & \textbf{28.3\%} & \textbf{49.3\%} & \textbf{+21.1\%} & --- & $0.184$ \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Significance levels: *** $p<0.001$, ** $p<0.01$, * $p<0.05$, ns = not significant.
+\item Cohen's $d$ interpretation: $|d|<0.2$ negligible, $0.2\leq|d|<0.5$ small, 
+$0.5\leq|d|<0.8$ medium, $|d|\geq0.8$ large effect.
+\end{tablenotes}
+\end{table}

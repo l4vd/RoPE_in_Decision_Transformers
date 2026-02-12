@@ -1,0 +1,93 @@
+# Python Dependencies for Rotary Positional Embeddings Project
+
+# Core Deep Learning
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.21.0
+
+# Data Processing
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+kaleido>=0.2.1
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+notebook>=6.4.0
+
+# Progress and Utilities
+tqdm>=4.62.0
+
+# Statistical Analysis
+statsmodels>=0.13.0
+scikit-learn>=0.24.0
+
+# Dimensionality Reduction (for Additional analyses)
+umap-learn>=0.5.0
+
+# Testing (optional)
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Code Quality (optional)
+black>=21.0
+flake8>=3.9.0
+isort>=5.9.0
+
+# Documentation (optional)
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+
+# ====================
+# Version Information
+# ====================
+# Tested with:
+# - Python 3.9.7
+# - PyTorch 1.13.1
+# - CUDA 11.7
+# - Ubuntu 20.04 / Windows 11
+
+# ====================
+# Installation Notes
+# ====================
+
+# Basic installation (required packages only):
+#   pip install -r requirements.txt
+
+# With GPU support:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu117
+#   pip install -r requirements.txt
+
+# Development installation (with optional packages):
+#   pip install -r requirements.txt
+#   pip install pytest black flake8 sphinx
+
+# ====================
+# Platform-Specific
+# ====================
+
+# For M1/M2 Mac users:
+#   conda create -n rope_env python=3.9
+#   conda activate rope_env
+#   conda install pytorch torchvision -c pytorch
+#   pip install -r requirements.txt
+
+# For Windows users:
+#   Ensure Visual Studio C++ Build Tools installed for some packages
+#   Consider using conda for easier dependency management
+
+# ====================
+# Minimal Requirements
+# ====================
+# If you have limited disk space or just want to run the code:
+# torch>=1.10.0
+# numpy>=1.21.0
+# matplotlib>=3.4.0
+# jupyter>=1.0.0
+# tqdm>=4.62.0

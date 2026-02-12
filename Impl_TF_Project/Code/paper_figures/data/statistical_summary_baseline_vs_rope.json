@@ -1,0 +1,69 @@
+{
+  "training_loss": {
+    "t_statistic": -5.850666323848387,
+    "p_value": 0.004257453002831472,
+    "cohens_d": -5.850666323848388,
+    "baseline_mean": 0.41255926995566394,
+    "baseline_std": 0.0013745410464365956,
+    "rope_mean": 0.35627200612516113,
+    "rope_std": 0.013536054975510919
+  },
+  "validation_loss": {
+    "t_statistic": 2.875689567010448,
+    "p_value": 0.04520879507173476,
+    "cohens_d": 2.875689567010448,
+    "baseline_mean": 0.6976635158061981,
+    "baseline_std": 0.0012587978039246385,
+    "rope_mean": 0.7005342452062501,
+    "rope_std": 0.0006391671081208456
+  },
+  "length_generalization": {
+    "8": {
+      "z_score": 0,
+      "p_value": 1.0,
+      "improvement": 0.0,
+      "relative_improvement": 0.0,
+      "baseline_mean": 1.0,
+      "rope_mean": 1.0
+    },
+    "10": {
+      "z_score": 0.7884004962363692,
+      "p_value": 0.4304624806481385,
+      "improvement": 21.999999999999996,
+      "relative_improvement": 34.37494628914642,
+      "baseline_mean": 0.64,
+      "rope_mean": 0.86
+    },
+    "12": {
+      "z_score": 0.936184415037538,
+      "p_value": 0.34917824599664593,
+      "improvement": 25.0,
+      "relative_improvement": 136.36289256604053,
+      "baseline_mean": 0.18333333333333335,
+      "rope_mean": 0.43333333333333335
+    },
+    "15": {
+      "z_score": 0.9521672734117108,
+      "p_value": 0.3410121554913963,
+      "improvement": 12.333333333333336,
+      "relative_improvement": 924.930630202735,
+      "baseline_mean": 0.013333333333333334,
+      "rope_mean": 0.1366666666666667
+    },
+    "20": {
+      "z_score": 0.4641395608164571,
+      "p_value": 0.6425477597757139,
+      "improvement": 3.0000000000000004,
+      "relative_improvement": 128.56591860348843,
+      "baseline_mean": 0.023333333333333334,
+      "rope_mean": 0.05333333333333334
+    }
+  },
+  "convergence_speed": {
+    "t_statistic": -1.1174051142337944,
+    "p_value": 0.3264033038577825,
+    "cohens_d": 1.1174051142337944,
+    "baseline_mean": 84.66666666666667,
+    "rope_mean": 60.333333333333336
+  }
+}
